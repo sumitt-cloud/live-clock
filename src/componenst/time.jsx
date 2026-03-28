@@ -2,9 +2,11 @@ function Time(){
 
     let time = new Date();
     return <p className="lead">
-        this is the current time :
+        current Date :
         {time.toLocaleDateString()}
-        -
+        <br></br>
+        current Time :
+        
         {time.toLocaleTimeString()}
     </p>
 }
